@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home - SASI Portfolio{% endblock %}
+
+{% block content %}
+<div class="parallax-section">
+    <div class="home-overlay">
+        <h1>Hello, SASI! 👋</h1>
+        <p>I’m a DevOps Engineer focused on building scalable, secure, and automated infrastructure.</p>
+
+        <h2>🔧 Core Skills</h2>
+        <ul>
+            <li><strong>CI/CD:</strong> Jenkins, GitHub Actions, GitLab CI</li>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure, GCP</li>
+            <li><strong>Containers:</strong> Docker, Kubernetes (EKS, AKS)</li>
+            <li><strong>IaC:</strong> Terraform, Ansible</li>
+            <li><strong>Monitoring:</strong> Prometheus, Grafana, ELK</li>
+        </ul>
+
+        <p><a href="{{ url_for('projects.projects') }}" class="btn-primary">See My Projects →</a></p>
+    </div>
+</div>
+{% endblock %}
