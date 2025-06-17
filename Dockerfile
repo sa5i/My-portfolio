@@ -1,3 +1,3 @@
 FROM python:3.11-slim
 
-WORKDIR /home/sasi/
+WORKDIR /home/sasi/My-Portfolio
